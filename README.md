@@ -12,7 +12,10 @@ Start on the pre-work as soon as you can and be sure to allow yourself plenty of
 
 Complete the <a href="https://github.com/codefellows/code-201-prework/blob/master/README.md#code-201-foundations-of-software-development" target="_blank">Code 201 prework</a> (excluding any textbook purchases therein).
 
-##### 2. Read these two free online mini-books:
+##### 2. Read this free online mini-book through chapter 6:
 
-  -  <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/this%20%26%20object%20prototypes/README.md#you-dont-know-js-this--object-prototypes" target="_blank">You Don't Know JS: this & Object Prototypes</a>
-  -  <a href="https://github.com/getify/You-Dont-Know-JS/blob/master/scope%20&%20closures/README.md#you-dont-know-js-scope--closures" target="_blank">You Don't Know JS: Scope & Closures</a>
+<a href="http://eloquentjavascript.net/" target="_blank">Eloquent JavaScript</a>
+
+##### 3. Install Node:
+
+<a href="https://gist.github.com/toastynerd/d3e563522977f6750c32" target="_blank">Install Node the right way.</a>
