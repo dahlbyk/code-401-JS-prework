@@ -17,4 +17,4 @@ If you have time and want to review some Javscript fundamentals there are two ma
 - [You Don't Know JS series](https://github.com/getify/You-Dont-Know-JS) (specifically, the "Scopes and Closures" and "this & Object Prototypes" books)
 
 If you are testing into 401 or need additional practice on GIT, check out the following Udemy course.  This should help get you up to speed:
-- [Udemy Git Tutorial](https://slack.com/downloads/osx)
+- [Udemy Git Tutorial](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/)
