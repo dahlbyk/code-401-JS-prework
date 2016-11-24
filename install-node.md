@@ -1,35 +1,50 @@
-# Out with the old
-First type `which node && which npm` if you get anything other than a blank line you already have node installed and need to remove it. *If you installed node with homebrew or another package manager, use that same package manager to remove your current version of node*. If you used the node installer from their website use these commands:
-```
-sudo rm -rf $(which node)
-sudo rm -rf $(which npm)
-sudo rm -rf ~/.node
-sudo rm -rf ~/.npm
-```
-Now if you type `which node && which npm` you should have a blank line.
+# 401 PREWORK - INSTALL NODE
 
-# In with the new
-These instructions will help you install the latest version of node in a way the prevents you from needing root to install
-global packages. *You will need curl, python v2.x a C compiler(gcc or clang) and make installed, OSX users will need to make sure they have the latest version of xcode installed and have accepted the user agreement by opening xcode and agreeing to the agreeable agreement*. These can be obtained through whatever package manager your operating system uses (homebrew on Mac, apt-get on Ubuntu, etc).
-```
-curl -O http://nodejs.org/dist/v4.4.7/node-v4.4.7.tar.gz
-tar xvf node-v4.4.7.tar.gz
-cd node-v4.4.7
-./configure --prefix=$HOME/.node
-make && make install
-```
-These commands will download the latest stable version of node (currently 4.4.7) configure it to install into a .node folder in your 
-home directory and will then compile it from source. Next you need to tell your shell to look for the node command in $HOME/.node/bin
-On Linux:
-```
-echo "export PATH=$HOME/.node/bin:$PATH" >> ~/.bashrc
-echo "export NODE_PATH=$HOME/.node/lib/node_modules" >> ~/.bashrc
-source ~/.bashrc
-```
-On Mac:
-```
-echo "export PATH=$HOME/.node/bin:$PATH" >> ~/.bash_profile
-echo "export NODE_PATH=$HOME/.node/lib/node_modules" >> ~/.bash_profile
-source ~/.bash_profile
-```
-If you now enter the command `node --version` you should see `v4.4.7`
+* [Install NVM](#install-nvm)
+* [Install NodeJS](#install-node)
+
+#<a id="install-nvm"></a> Install NVM
+### Download NVM 
+* Open the command line
+* Copy the following command and press enter:
+``` bash
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
+```  
+This will create the directory `~/.nvm` and install nvm into it  
+* run `ls -a ~/` and look for the **.nvm** directory
+
+### Configure BASH to load nvm 
+* Run the command `touch ~/.bashrc ~/.bash_profile`  
+  This will make sure the files **~/.bashrc** and **~/.bash_profile** exist  
+* Open the `~/.bash_profile` and `~/.bashrc` files in your text editor
+* Add the following lines to the end of your **~/.bash_profile**
+``` bash
+# Read $HOME/.bashrc, if present.
+if [ -f $HOME/.bashrc ]; then
+  source $HOME/.bashrc   
+fi
+```  
+* Add the following lines to the end of your **~/.bashrc**  
+``` bash
+export NVM_DIR="$HOME/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+```  
+The Bash configuration files are loaded by bash at different times. We edit them both to ensure node will allways be setup.  
+* **~/.bash_profile** is the personal initialization file, executed for login shells
+ * on OSX this runs every time you open a new terminal window
+ * on Linux this runs every time you login to your computer
+* **~/.bashrc** is the individual per-interactive-shell startup file
+ * on OSX this runs every time you type the command `bash` 
+ * on Linux this runs every time you open a terminal or type the command `bash`
+* run `source ~/.bashrc` to load the new configuration
+* run `command -v nvm` to verify that nvm is installed (it should output "nvm")
+
+#<a id="install-node"></a> Install NodeJS
+* run the command `nvm install 6`   
+  this will install the latest version of node 6
+* Open **~/.bashrc** in your text editor
+* Add the following line to the end of your **~/.bashrc** to configure nvm to use NodeJS version 6
+``` bash
+nvm use 6
+```  
+* run `node -v` to verify NodeJS v6 is installed (it should output "v6.x.x")
