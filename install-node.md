@@ -1,4 +1,4 @@
-# 401 PREWORK - INSTALL NODE
+# 401 Prework - Install Node.js
 
 * [Install NVM](#install-nvm)
 * [Install NodeJS](#install-node)
