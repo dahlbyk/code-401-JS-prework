@@ -5,46 +5,46 @@
 
 #<a id="install-nvm"></a> Install NVM
 ### Download NVM 
-* Open the command line
-* Copy the following command and press enter:
+* open the command line
+* copy the following command and press enter:
 ``` bash
 curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
 ```  
-This will create the directory `~/.nvm` and install nvm into it  
+this will create the directory `~/.nvm` and install nvm into it  
 * run `ls -a ~/` and look for the **.nvm** directory
 
 ### Configure BASH to load nvm 
-* Run the command `touch ~/.bashrc ~/.bash_profile`  
-  This will make sure the files **~/.bashrc** and **~/.bash_profile** exist  
-* Open the `~/.bash_profile` and `~/.bashrc` files in your text editor
-* Add the following lines to the end of your **~/.bash_profile**
+* run the command `touch ~/.bashrc ~/.bash_profile`  
+  this will make sure the files **~/.bashrc** and **~/.bash_profile** exist  
+* open the `~/.bash_profile` and `~/.bashrc` files in your text editor
+* add the following lines to the end of your **~/.bash_profile**
 ``` bash
 # Read $HOME/.bashrc, if present.
 if [ -f $HOME/.bashrc ]; then
   source $HOME/.bashrc   
 fi
 ```  
-* Add the following lines to the end of your **~/.bashrc**  
+* add the following lines to the end of your **~/.bashrc**  
 ``` bash
 export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 ```  
-The Bash configuration files are loaded by bash at different times. We edit them both to ensure node will allways be setup.  
+the bash configuration files are loaded by bash at different times - we edit them both to ensure node will always be setup  
 * **~/.bash_profile** is the personal initialization file, executed for login shells
- * On OSX this runs every time you open a new terminal window
- * On Linux this runs every time you login to your computer
+ * on OSX this runs every time you open a new terminal window
+ * on Linux this runs every time you login to your computer
 * **~/.bashrc** is the individual per-interactive-shell startup file
- * On OSX this runs every time you type the command `bash` 
- * On Linux this runs every time you open a terminal or type the command `bash`
-* Run `source ~/.bashrc` to load the new configuration
-* Run `command -v nvm` to verify that nvm is installed (it should output "nvm")
+ * on OSX this runs every time you type the command `bash` 
+ * on Linux this runs every time you open a terminal or type the command `bash`
+* run `source ~/.bashrc` to load the new configuration
+* run `command -v nvm` to verify that nvm is installed (it should output "nvm")
 
 #<a id="install-node"></a> Install NodeJS
-* Run the command `nvm install 6`   
-  This will install the latest version of node 6
-* Open **~/.bashrc** in your text editor
-* Add the following line to the end of your **~/.bashrc** to configure nvm to use NodeJS version 6
+* run the command `nvm install 6`   
+  this will install the latest version of node 6
+* open **~/.bashrc** in your text editor
+* add the following line to the end of your **~/.bashrc** to configure nvm to use NodeJS version 6
 ``` bash
 nvm use 6
 ```  
-* Run `node -v` to verify NodeJS v6 is installed (it should output "v6.x.x")
+* run `node -v` to verify NodeJS v6 is installed (it should output "v6.x.x")
