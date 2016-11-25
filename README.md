@@ -9,7 +9,7 @@ Start on the pre-work as soon as you can and be sure to allow yourself plenty of
 ##### 1. Setup your computer with Terminal, Git, GitHub, and Slack
 - [Download Slack](https://slack.com/downloads/osx)
 
-##### 2. Install Node the right way, following the instructions found [here](https://gist.github.com/toastynerd/d3e563522977f6750c32)
+##### 2. Install Node the right way, following the instructions found [here](https://github.com/codefellows/code-401-JS-prework/blob/master/install-node.md)
 
 ### Optional Pre-work
 If you have time and want to review some Javscript fundamentals there are two main resources you should look at.  A few chapters from the You Don't Know JS series are sectioned off as reading assignments but it's fine if you want to get a head start:
