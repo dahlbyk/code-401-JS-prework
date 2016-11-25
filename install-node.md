@@ -31,20 +31,20 @@ export NVM_DIR="$HOME/.nvm"
 ```  
 The Bash configuration files are loaded by bash at different times. We edit them both to ensure node will allways be setup.  
 * **~/.bash_profile** is the personal initialization file, executed for login shells
- * on OSX this runs every time you open a new terminal window
- * on Linux this runs every time you login to your computer
+ * On OSX this runs every time you open a new terminal window
+ * On Linux this runs every time you login to your computer
 * **~/.bashrc** is the individual per-interactive-shell startup file
- * on OSX this runs every time you type the command `bash` 
- * on Linux this runs every time you open a terminal or type the command `bash`
-* run `source ~/.bashrc` to load the new configuration
-* run `command -v nvm` to verify that nvm is installed (it should output "nvm")
+ * On OSX this runs every time you type the command `bash` 
+ * On Linux this runs every time you open a terminal or type the command `bash`
+* Run `source ~/.bashrc` to load the new configuration
+* Run `command -v nvm` to verify that nvm is installed (it should output "nvm")
 
 #<a id="install-node"></a> Install NodeJS
-* run the command `nvm install 6`   
-  this will install the latest version of node 6
+* Run the command `nvm install 6`   
+  This will install the latest version of node 6
 * Open **~/.bashrc** in your text editor
 * Add the following line to the end of your **~/.bashrc** to configure nvm to use NodeJS version 6
 ``` bash
 nvm use 6
 ```  
-* run `node -v` to verify NodeJS v6 is installed (it should output "v6.x.x")
+* Run `node -v` to verify NodeJS v6 is installed (it should output "v6.x.x")
