@@ -11,6 +11,8 @@ Start on the pre-work as soon as you can and be sure to allow yourself plenty of
 
 ##### 2. Install Node the right way, following the instructions found [here](https://github.com/codefellows/code-401-JS-prework/blob/master/install-node.md)
 
+##### 3. If you do not already have a current draft/copy of your resume, please create or update by the time we begin class. You will be working to improve your resume as part of Career Development during and after the course.
+
 ### Optional Pre-work
 If you have time and want to review some Javscript fundamentals there are two main resources you should look at.  A few chapters from the You Don't Know JS series are sectioned off as reading assignments but it's fine if you want to get a head start:
 - [Eloquent JavaScript](http://eloquentjavascript.net/)
