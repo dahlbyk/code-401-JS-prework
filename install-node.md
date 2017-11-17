@@ -1,50 +1,36 @@
 # 401 Prework - Install Node.js
 
-* [Install NVM](#install-nvm)
-* [Install NodeJS](#install-node)
+## Configure Bash
 
-#<a id="install-nvm"></a> Install NVM
-### Download NVM 
-* open the command line
-* copy the following command and press enter:
-``` bash
-curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.32.1/install.sh | bash
-```  
-this will create the directory `~/.nvm` and install nvm into it  
-* run `ls -a ~/` and look for the **.nvm** directory
-
-### Configure BASH to load nvm 
-* run the command `touch ~/.bashrc ~/.bash_profile`  
+1. run the command `touch ~/.bashrc ~/.bash_profile`  
   this will make sure the files **~/.bashrc** and **~/.bash_profile** exist  
-* open the `~/.bash_profile` and `~/.bashrc` files in your text editor
-* add the following lines to the end of your **~/.bash_profile**
+1. open the `~/.bash_profile` and `~/.bashrc` files in your text editor
+1. To ensure `.bashrc` loads when the profile loads, add the following lines to the end of your **~/.bash_profile**
+
 ``` bash
 # Read $HOME/.bashrc, if present.
 if [ -f $HOME/.bashrc ]; then
   source $HOME/.bashrc   
 fi
-```  
-* add the following lines to the end of your **~/.bashrc**  
-``` bash
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
-```  
+```
+
 the bash configuration files are loaded by bash at different times - we edit them both to ensure node will always be setup  
 * **~/.bash_profile** is the personal initialization file, executed for login shells
- * on OSX this runs every time you open a new terminal window
- * on Linux this runs every time you login to your computer
+  * on OSX this runs every time you open a new terminal window
+  * on Linux this runs every time you login to your computer
 * **~/.bashrc** is the individual per-interactive-shell startup file
- * on OSX this runs every time you type the command `bash` 
- * on Linux this runs every time you open a terminal or type the command `bash`
-* run `source ~/.bashrc` to load the new configuration
-* run `command -v nvm` to verify that nvm is installed (it should output "nvm")
+  * on OSX this runs every time you type the command `bash` 
+  * on Linux this runs every time you open a terminal or type the command `bash`
+* run `source ~/.bashrc` to load the new configuration (or open a new tab)
 
-#<a id="install-node"></a> Install NodeJS
-* run the command `nvm install 6`   
-  this will install the latest version of node 6
-* open **~/.bashrc** in your text editor
-* add the following line to the end of your **~/.bashrc** to configure nvm to use NodeJS version 6
-``` bash
-nvm use 6
-```  
-* run `node -v` to verify NodeJS v6 is installed (it should output "v6.x.x")
+
+## Install NVM & Node
+
+[Node Version Manager](https://github.com/creationix/nvm) is a great tool for... managing Node (surprise!). 
+
+1. Follow the installation instructions in the repo README, under the "Git Install" section.
+   * This will create the directory `~/.nvm` and install nvm into it.  
+   * run `ls -a ~/` and look for the **.nvm** directory
+2. Follow the instructions under the "Usage" section to install Node, and ensure setup is correct. 
+   * Open a new terminal tab, and run `node -v` to verify the [latest NodeJS](https://nodejs.org/en/) version is installed. 
+
