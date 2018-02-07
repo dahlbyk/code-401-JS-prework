@@ -6,12 +6,38 @@
   this will make sure the files **~/.bashrc** and **~/.bash_profile** exist  
 1. open the `~/.bash_profile` and `~/.bashrc` files in your text editor
 1. To ensure `.bashrc` loads when the profile loads, add the following lines to the end of your **~/.bash_profile**
+1. Add the additional functions to make it easy for you to edit your bash profile in the future.
 
 ``` bash
 # Read $HOME/.bashrc, if present.
 if [ -f $HOME/.bashrc ]; then
   source $HOME/.bashrc   
 fi
+ 
+# set the default editor to VSCode
+export EDITOR=code
+
+# use "be" to edit your bash profile with the default editor
+function be() {
+  $EDITOR ~/.bash_profile
+}
+
+# use "br" this to refresh your bash profile after making any changes
+function br() {
+  source ~/.bash_profile
+}
+
+# use "pingg" to ping google.com to see if you have a good internet connection.
+function pingg() {
+  ping google.com
+}
+
+function helpp() {
+  echo "be - edit your ~/.bash_profile"
+  echo "br - refresh your ~/.bash_profile"
+  echo "pingg - ping google.com (quit with CTRL+C)"
+  echo "helpp - display this handy help reminder"
+}
 ```
 
 the bash configuration files are loaded by bash at different times - we edit them both to ensure node will always be setup  
