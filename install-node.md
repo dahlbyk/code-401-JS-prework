@@ -1,12 +1,18 @@
 # 401 Prework - Install Node.js
 
 ## Configure Bash
+Bash has a **Bash Profile** which is a file that allows you to configure
+how your terminal behaves and define your own custom functions. Here's
+some confiurations that set your default text editor and make it easy
+for you to edit your profile in the future.
 
 1. run the command `touch ~/.bashrc ~/.bash_profile`  
-  this will make sure the files **~/.bashrc** and **~/.bash_profile** exist  
+   this will make sure the files **~/.bashrc** and **~/.bash_profile** exist  
 1. open the `~/.bash_profile` and `~/.bashrc` files in your text editor
-1. To ensure `.bashrc` loads when the profile loads, add the following lines to the end of your **~/.bash_profile**
-1. Add the additional functions to make it easy for you to edit your bash profile in the future.
+1. To ensure `.bashrc` loads when the profile loads, add the following lines to
+   the end of your **~/.bash_profile**
+1. Add the additional functions to make it easy for you to edit your bash
+   profile in the future.
 
 ``` bash
 # Read $HOME/.bashrc, if present.
@@ -27,11 +33,15 @@ function br() {
   source ~/.bash_profile
 }
 
-# use "pingg" to ping google.com to see if you have a good internet connection.
+# create a shorthand "pingg" to ping google.com to see if you have a good
+# internet connection.
 function pingg() {
   ping google.com
 }
 
+# prints out all the custom commands we added to help remind you what exists.
+# echo out more things yourself to remind you of other customizations you add!
+# (there's two p's here because "help" is another built in command)
 function helpp() {
   echo "be - edit your ~/.bash_profile"
   echo "br - refresh your ~/.bash_profile"
