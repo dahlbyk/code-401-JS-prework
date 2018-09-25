@@ -1,4 +1,4 @@
-# Code 401: Advanced Software Development in Full-Stack JavaScript
+![cf](http://i.imgur.com/7v5ASc8.png) Code 401: Advanced Software Development in Full-Stack JavaScript
 
 ### Pre-work
 
@@ -6,17 +6,131 @@ This is the mandatory pre-work for Code 401: JavaScript that counts as 5% of you
 
 Start on the pre-work as soon as you can and be sure to allow yourself plenty of time to complete it. Allow yourself more time than you think you will need so that you can take breaks and not get overwhelmed.
 
-##### 1. Setup your computer with Terminal, Git, GitHub, and Slack
+**Note: All prework is due the Friday before the class starts at 6pm**
+
+### Set Up Your Computer
+
+#### Windows Users -- Setup WSL if you have not yet done so
+- [Installation Instructions](https://github.com/codefellows/code-201-prework/blob/master/prework/windows/01_preface.md)
+
+#### Editor Configuration
+- Set your computer up with your editor of choice. Your developer environment is your own, please set it up and customize it to your liking.
+  - VS Code, Webstorm, Atom, Cloud 9, vim, ...
+- Create a working folder called `codefellows` created on your computer where all of your coursework will reside
+- In this folder, create a subdirectory called `401` for this class
+- Upload the  .eslintrc.json file into your `codefellows/401` folder (found in the "configs" folder of this repository) so that your files will conform to our standards.
+- Install the .editorconfig file to work with your chosen editor (most editors support this)
+
+#### Install Slack
 - [Download Slack](https://slack.com/downloads/osx)
 
-##### 2. Install Node the right way, following the instructions found [here](https://github.com/codefellows/code-401-JS-prework/blob/master/install-node.md)
+#### Install git
+- Verify you have the [latest version](https://git-scm.com/downloads) of Git installed
+- Setup an account on [GitHub](github.com) with a recent profile picture
+- Refresh your git fundamentals
+  - [Udemy Git Tutorial](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/)
+  - [Katacoda](https://www.katacoda.com/courses/git)
 
-##### 3. If you do not already have a current draft/copy of your resume, please create or update by the time we begin class. You will be working to improve your resume as part of Career Development during and after the course.
+##### Install Node
+- [Installation Instructions](https://github.com/codefellows/code-401-JS-prework/blob/master/install-node.md)
 
-### Optional Pre-work
-If you have time and want to review some Javscript fundamentals there are two main resources you should look at.  A few chapters from the You Don't Know JS series are sectioned off as reading assignments but it's fine if you want to get a head start:
+##### Install Mongo
+- [Installation Instructions](https://docs.mongodb.com/manual/installation/)
+
+##### Install REST Clients
+- [httpie](https://httpie.org/)
+- [Postman](https://www.getpostman.com/)
+
+##### Install XCode (Mac Users)
+- [Installation Instructions](https://developer.apple.com/xcode/)
+
+##### Install Android Studio
+- [Installation Instructions](https://developer.android.com/studio/install)
+
+
+### Create Developer / Online Accounts
+
+##### Heroku
+- https://www.heroku.com/
+
+##### Travis CI
+- https://travis-ci.com/
+  - *NOTE: Signup with travis-ci.com, not .org*
+- Connect Travis to your github.com account
+  - Login to your travis account
+  - Navigate to your profile page
+  - Open the "Repositories" tab
+  - Click the "Manage repositories on github" button
+  - Follow the instructions to integrate
+
+##### Google Developer Account
+- https://console.developers.google.com
+
+##### AWS Developer Account
+- https://aws.amazon.com/
+
+
+### Up your JavaScript Game!
+- Code 301 Code Challenges and Shred Talks
+  - It is recommended that you read the README, watch the Videos, and Do/Re-Do the challenges
+  - Challeges are **required** if you have tested into 401 or have a layoff > 1 week between 301 & 401
+  - These readings/challenges are individually linked in Canvas as assignments as well
+    - [Array.forEach()](https://codefellows.github.io/code-301-guide/curriculum/01-smacss-media-queries/challenges/ASSIGNMENT)
+    - [Pass by Reference](https://codefellows.github.io/code-301-guide/curriculum/02-jquery-selectors-events/challenges/ASSIGNMENT)
+    - [Nested For Loops](https://codefellows.github.io/code-301-guide/curriculum/03-flexbox-templating/challenges/ASSIGNMENT)
+    - [Regular Expressions](https://codefellows.github.io/code-301-guide/curriculum/04-RWD-RegEx/challenges/ASSIGNMENT)
+    - [slice(), splice(), split(), join()](https://codefellows.github.io/code-301-guide/curriculum/05-deployment/challenges/ASSIGNMENT)
+    - [Object Iteration](https://codefellows.github.io/code-301-guide/curriculum/06-node-express-apis/challenges/ASSIGNMENT)
+    - [Array.map()](https://codefellows.github.io/code-301-guide/curriculum/07-apis-continued/challenges/ASSIGNMENT)
+    - [Array.filter()](https://codefellows.github.io/code-301-guide/curriculum/08-sql-postgres/challenges/ASSIGNMENT)
+    - [Array.reduce()](https://codefellows.github.io/code-301-guide/curriculum/09-sql-continued/challenges)
+    - [Chaining Methods](https://codefellows.github.io/code-301-guide/curriculum/10-call-stack/challenges/ASSIGNMENT)
+    - [Regular Expressions 2](https://codefellows.github.io/code-301-guide/curriculum/11-ejs/challenges/ASSIGNMENT)
+    - [Sorting](https://codefellows.github.io/code-301-guide/curriculum/12-components/challenges/ASSIGNMENT)
+    - [.includes(), .every(), .charAt()](https://codefellows.github.io/code-301-guide/curriculum/13-forms/challenges/ASSIGNMENT)
+    - [Regular Expressions 3](https://codefellows.github.io/code-301-guide/curriculum/14-google-books/challenges/ASSIGNMENT)
+
+- ES6 Katas
+  - There are various kata exercises that you must complete. Each of these is a series of broken tests that you'll need to write the code for in order to make them pass.
+  - Promises
+    - [Basics](http://tddbin.com/#?kata=es6/language/promise/basics)
+    - [Creation](hhttp://tddbin.com/#?kata=es6/language/promise/creation)
+    - [Chaining/Then](hhttp://tddbin.com/#?kata=es6/language/promise/chaining-then)
+    - [API](hhttp://tddbin.com/#?kata=es6/language/promise/api)
+    - [Catch](hhttp://tddbin.com/#?kata=es6/language/promise/catch)
+  - Arrow Functions
+    - [Basics](hhttp://tddbin.com/#?kata=es6/language/arrow-functions/basics)
+    - [Function Binding](hhttp://tddbin.com/#?kata=es6/language/arrow-functions/binding)
+  - Block Scope
+    - [let](hhttp://tddbin.com/#?kata=es6/language/block-scoping/let)
+    - [const](hhttp://tddbin.com/#?kata=es6/language/block-scoping/const)
+  - Object Literals
+    - [Basics](hhttp://tddbin.com/#?kata=es6/language/object-literal/basics)
+    - [Computed Properties](hhttp://tddbin.com/#?kata=es6/language/object-literal/computed-properties)
+    - [Getter](hhttp://tddbin.com/#?kata=es6/language/object-literal/getter)
+    - [Setter](hhttp://tddbin.com/#?kata=es6/language/object-literal/setter)
+  - Array
+    - [From](hhttp://tddbin.com/#?kata=es6/language/array-api/from)
+    - [Of](hhttp://tddbin.com/#?kata=es6/language/array-api/of)
+    - [fill()](hhttp://tddbin.com/#?kata=es6/language/array-api/fill)
+    - [find()](hhttp://tddbin.com/#?kata=es6/language/array-api/find)
+    - [findIndex()](hhttp://tddbin.com/#?kata=es6/language/array-api/findIndex)
+    - [entries()](hhttp://tddbin.com/#?kata=es6/language/array-api/entries)
+    - [keys()](hhttp://tddbin.com/#?kata=es6/language/array-api/keys)
+    - [values()](hhttp://tddbin.com/#?kata=es6/language/array-api/values)
+  - Template Strings
+    - [Basics](hhttp://tddbin.com/#?kata=es6/language/template-strings/basics)
+    - [Multiline](hhttp://tddbin.com/#?kata=es6/language/template-strings/multiline)
+    - [Tagged](hhttp://tddbin.com/#?kata=es6/language/template-strings/tagged)
+    - [Raw](hhttp://tddbin.com/#?kata=es6/language/template-strings/raw)
+  - String
+    - [Includes](hhttp://tddbin.com/#?kata=es6/language/string-api/includes)
+    - [Repeat](hhttp://tddbin.com/#?kata=es6/language/string-api/repeat)
+    - [Starts With](hhttp://tddbin.com/#?kata=es6/language/string-api/startswith)
+    - [Ends With](hhttp://tddbin.com/#?kata=es6/language/string-api/endswith)
+
+### Reference Materials
+Read and review the following materials.
+- [ES6 Features](http://es6-features.org/)
 - [Eloquent JavaScript](http://eloquentjavascript.net/)
 - [You Don't Know JS series](https://github.com/getify/You-Dont-Know-JS) (specifically, the "Scopes and Closures" and "this & Object Prototypes" books)
-
-If you are testing into 401 or need additional practice on GIT, check out the following Udemy course.  This should help get you up to speed:
-- [Udemy Git Tutorial](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/)
