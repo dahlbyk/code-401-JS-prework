@@ -2,9 +2,26 @@
 
 ### ES6 Katas and Practice
 
-Complete each of the following "kata" exercises
+Follow the links below to tddbin.com where they've setup an online environment for you to practice some advanced coding in Javascript.  Each challenge, or 'kata' is a series of broken tests that you'll need to write the code for in order to make them pass.
 
-Each of these is a series of broken tests that you'll need to write the code for in order to make them pass.
+Unlike the 301 fundamentals, these are coded to use the "mocha" test framework to run your tests.  Make sure that you have this installed globally before you begin.
+
+**To turn this assignment in**
+
+- Visit the links below and use the amazing tddbin.com online tool to complete the challenge.
+- Create a new repository on github called `code-challenges` if you haven't already done so
+- Clone this to your computer, under your `codefellows` working folder
+- Create a new folder for each of these challenge types and then a sub-folder for each challenge.
+- Create a file for each challenge in a file called "challenge.spec.js" in each folder
+- Paste your working code from the web interfacte into that file.
+- At the top of the file, add this line, as the first line in the file and save it.
+  - `var assert = require('assert');`
+- Ensure that running `mocha challenge.spec.js` in the folder where that file exists passes for all tests
+- Provide a link to the master branch of this repo in canvas
+
+Like `jest`, `mocha` will run the tests contained in the files you specify.  The tests written for tddbin.com use `mocha` instead of `jest`, necessitating the use of a different test running command and file name.
+
+**Complete each of the following "kata" exercises**
 
   - Promises
     - [Basics](http://tddbin.com/#?kata=es6/language/promise/basics)

@@ -31,8 +31,17 @@ Start on the pre-work as soon as you can and be sure to allow yourself plenty of
   - [Udemy Git Tutorial](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/)
   - [Katacoda](https://www.katacoda.com/courses/git)
 
-##### Install Node
+##### Install Node and NVM
 - [Installation Instructions](https://github.com/codefellows/code-401-JS-prework/blob/master/install-node.md)
+
+- **Install the following global node modules**
+  - **nodemon** `npm i -g nodemon`
+  - **json-server** `npm i -g json-server`
+  - **live-server** `npm i -g live-server`
+  - **watchman** `npm i -g watchman`
+  - **jest** `npm i -g jest`
+  - **mocha** `npm i -g mocha`
+  - **eslint** `npm i -g eslint`
 
 ##### Install Mongo
 - [Installation Instructions](https://docs.mongodb.com/manual/installation/)

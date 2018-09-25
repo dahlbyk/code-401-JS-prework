@@ -8,6 +8,20 @@ Challenges are **required** if you have tested into 401 or have a layoff > 1 wee
 
 These readings/challenges are individually linked in Canvas as assignments as well
 
+**To turn this assignment in**
+
+- Create a new repository on github called `code-challenges` if you haven't already done so
+- Clone this to your computer, under your `codefellows` working folder
+- Upload the  jest.config.js file into your `code-challenges` folder (found in the "configs" folder of this repository)
+- Create a new folder for each of these challenges
+- Write your code for each challenge in a file called "challenge.test.js" in each folder
+- Ensure that running `jest challenge.test.js` passes for all tests
+- Provide a link to the master branch of this repo in canvas
+
+Jest is a test runner that will execute against every file named "challenge.test.js" in your repository.
+
+**Complete Each Challenge**
+
 - [Array.forEach()](https://codefellows.github.io/code-301-guide/curriculum/01-smacss-media-queries/challenges/ASSIGNMENT)
 - [Pass by Reference](https://codefellows.github.io/code-301-guide/curriculum/02-jquery-selectors-events/challenges/ASSIGNMENT)
 - [Nested For Loops](https://codefellows.github.io/code-301-guide/curriculum/03-flexbox-templating/challenges/ASSIGNMENT)
