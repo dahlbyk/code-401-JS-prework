@@ -1,4 +1,4 @@
-# Code 401: Advanced Software Development in Full-Stack JavaScript
+![cf](http://i.imgur.com/7v5ASc8.png) Code 401: Advanced Software Development in Full-Stack JavaScript
 
 ### Pre-work
 
@@ -6,17 +6,34 @@ This is the mandatory pre-work for Code 401: JavaScript that counts as 5% of you
 
 Start on the pre-work as soon as you can and be sure to allow yourself plenty of time to complete it. Allow yourself more time than you think you will need so that you can take breaks and not get overwhelmed.
 
-##### 1. Setup your computer with Terminal, Git, GitHub, and Slack
-- [Download Slack](https://slack.com/downloads/osx)
+**Note: All prework is due the Friday before the class starts at 6pm**
 
-##### 2. Install Node the right way, following the instructions found [here](https://github.com/codefellows/code-401-JS-prework/blob/master/install-node.md)
+### Set Up Your Computer
+- [ ] [Configure Bash](configure-bash)
+- [ ] [Download and setup Slack](https://slack.com/downloads/osx)
+- [ ] [Setup Git](install-git.md)
+- [ ] [Install Node and NVM](install-node.md)
+- [ ] [Setup WSL](https://github.com/codefellows/code-201-prework/blob/master/prework/windows/01_preface.md) -- Windows users only
+- [ ] [Install Mongo](install-mongo.md)
+- [ ] [Install REST Clients](install-rest-clients.md)
+- [ ] [Install XCode](install-xcode.md) -- Mac users only
+- [ ] [Install Android Studio](install-android-studio.md)
 
-##### 3. If you do not already have a current draft/copy of your resume, please create or update by the time we begin class. You will be working to improve your resume as part of Career Development during and after the course.
 
-### Optional Pre-work
-If you have time and want to review some Javscript fundamentals there are two main resources you should look at.  A few chapters from the You Don't Know JS series are sectioned off as reading assignments but it's fine if you want to get a head start:
-- [Eloquent JavaScript](http://eloquentjavascript.net/)
-- [You Don't Know JS series](https://github.com/getify/You-Dont-Know-JS) (specifically, the "Scopes and Closures" and "this & Object Prototypes" books)
+### Create Developer / Online Accounts
+- [ ] [Heroku](account-setup-heroku.md)
+- [ ] [Travis](account-setup-travis.md)
+- [ ] [Google](account-setup-google.md)
+- [ ] [AWS](account-setup-aws.md)
+- [ ] [REPL.it](https://repl.it/) (Optional)
+- [ ] [Code Sandbox](https://codesandbox.io/) (Optional)
 
-If you are testing into 401 or need additional practice on GIT, check out the following Udemy course.  This should help get you up to speed:
-- [Udemy Git Tutorial](https://blog.udemy.com/git-tutorial-a-comprehensive-guide/)
+
+### Up your JavaScript Game (Code Challenges)
+- [ ] [Code 301 Code Challenges and Shred Talks](301-code-review.md)
+- [ ] [ES6 Katas](ES6-katas.md)
+
+### Reading and Reference Materials
+- [ ] [ES6 Features](http://es6-features.org/)
+- [ ] [Eloquent JavaScript](http://eloquentjavascript.net/)
+- [ ] [You Don't Know JS series](https://github.com/getify/You-Dont-Know-JS) (specifically, the "Scopes and Closures" and "this & Object Prototypes" books)
