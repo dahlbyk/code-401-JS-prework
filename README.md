@@ -13,10 +13,10 @@ Start on the pre-work as soon as you can and be sure to allow yourself plenty of
 - [ ] [Download and setup Slack](https://slack.com/downloads/osx)
 - [ ] [Setup Git](install-git.md)
 - [ ] [Install Node and NVM](install-node.md)
-- [ ] Windows Users -- [Setup WSL](https://github.com/codefellows/code-201-prework/blob/master/prework/windows/01_preface.md)
+- [ ] [Setup WSL](https://github.com/codefellows/code-201-prework/blob/master/prework/windows/01_preface.md) -- Windows users only
 - [ ] [Install Mongo](install-mongo.md)
 - [ ] [Install REST Clients](install-rest-clients.md)
-- [ ] [Install XCode](install-xcode.md)
+- [ ] [Install XCode](install-xcode.md) -- Mac users only
 - [ ] [Install Android Studio](install-android-studio.md)
 
 
