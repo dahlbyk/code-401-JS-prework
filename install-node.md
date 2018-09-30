@@ -15,7 +15,7 @@
 - **nodemon** `npm i -g nodemon`
 - **json-server** `npm i -g json-server`
 - **live-server** `npm i -g live-server`
-- **watchman** `npm i -g watchman`
+- **watchman** [Install Guide](https://facebook.github.io/watchman/docs/install.html)
 - **jest** `npm i -g jest`
 - **mocha** `npm i -g mocha`
 - **eslint** `npm i -g eslint`
