@@ -24,7 +24,7 @@ Jest is a test runner that will execute against every file named "challenge.test
 
 - [Array.forEach()](https://codefellows.github.io/code-301-guide/curriculum/01-smacss-media-queries/challenges/ASSIGNMENT)
 - [Pass by Reference](https://codefellows.github.io/code-301-guide/curriculum/02-jquery-selectors-events/challenges/ASSIGNMENT)
-- [Nested For Loops](https://codefellows.github.io/code-301-guide/curriculum/12-components-forms/challenges/ASSIGNMENT)
+- [Two-Dimensional Arrays](https://codefellows.github.io/code-301-guide/curriculum/12-components-forms/challenges/ASSIGNMENT)
 - [Regular Expressions](https://codefellows.github.io/code-301-guide/curriculum/04-RWD-RegEx/challenges/ASSIGNMENT)
 - [slice(), splice(), split(), join()](https://codefellows.github.io/code-301-guide/curriculum/05-deployment/challenges/ASSIGNMENT)
 - [Object Iteration](https://codefellows.github.io/code-301-guide/curriculum/06-node-express-apis/challenges/ASSIGNMENT)
