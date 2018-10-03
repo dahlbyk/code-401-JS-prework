@@ -24,7 +24,7 @@ Jest is a test runner that will execute against every file named "challenge.test
 
 - [Array.forEach()](https://codefellows.github.io/code-301-guide/curriculum/01-smacss-media-queries/challenges/ASSIGNMENT)
 - [Pass by Reference](https://codefellows.github.io/code-301-guide/curriculum/02-jquery-selectors-events/challenges/ASSIGNMENT)
-- [Nested For Loops](https://codefellows.github.io/code-301-guide/curriculum/03-flexbox-templating/challenges/ASSIGNMENT)
+- [Nested For Loops](https://codefellows.github.io/code-301-guide/curriculum/12-components-forms/challenges/ASSIGNMENT)
 - [Regular Expressions](https://codefellows.github.io/code-301-guide/curriculum/04-RWD-RegEx/challenges/ASSIGNMENT)
 - [slice(), splice(), split(), join()](https://codefellows.github.io/code-301-guide/curriculum/05-deployment/challenges/ASSIGNMENT)
 - [Object Iteration](https://codefellows.github.io/code-301-guide/curriculum/06-node-express-apis/challenges/ASSIGNMENT)
@@ -33,6 +33,6 @@ Jest is a test runner that will execute against every file named "challenge.test
 - [Array.reduce()](https://codefellows.github.io/code-301-guide/curriculum/09-sql-continued/challenges)
 - [Chaining Methods](https://codefellows.github.io/code-301-guide/curriculum/10-call-stack/challenges/ASSIGNMENT)
 - [Regular Expressions 2](https://codefellows.github.io/code-301-guide/curriculum/11-ejs/challenges/ASSIGNMENT)
-- [Sorting](https://codefellows.github.io/code-301-guide/curriculum/12-components/challenges/ASSIGNMENT)
+- [Sorting](https://codefellows.github.io/code-301-guide/curriculum/03-flexbox-templating/challenges/ASSIGNMENT)
 - [.includes(), .every(), .charAt()](https://codefellows.github.io/code-301-guide/curriculum/13-forms/challenges/ASSIGNMENT)
 - [Regular Expressions 3](https://codefellows.github.io/code-301-guide/curriculum/14-google-books/challenges/ASSIGNMENT)
