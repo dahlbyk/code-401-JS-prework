@@ -9,7 +9,7 @@ Start on the pre-work as soon as you can and be sure to allow yourself plenty of
 **Note: All prework is due the Friday before the class starts at 6pm**
 
 ### Set Up Your Computer
-- [ ] [Configure Bash](configure-bash)
+- [ ] [Configure Bash](configure-bash.md)
 - [ ] [Download and setup Slack](https://slack.com/downloads/osx)
 - [ ] [Setup Git](install-git.md)
 - [ ] [Install Node and NVM](install-node.md)
