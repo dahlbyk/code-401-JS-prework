@@ -29,7 +29,7 @@ Jest is a test runner that will execute against every file named "challenge.test
 - [Object Iteration](https://codefellows.github.io/code-301-guide/curriculum/06-node-express-apis/challenges/ASSIGNMENT){:target="_blank"}
 - [Array.map()](https://codefellows.github.io/code-301-guide/curriculum/07-apis-continued/challenges/ASSIGNMENT){:target="_blank"}
 - [Array.filter()](https://codefellows.github.io/code-301-guide/curriculum/08-sql-postgres/challenges/ASSIGNMENT){:target="_blank"}
-- [Array.reduce()](https://codefellows.github.io/code-301-guide/curriculum/09-cacehe-invalidation/challenges/ASSIGNMENT){:target="_blank"}
+- [Array.reduce()](https://github.com/codefellows/code-301-guide/blob/master/curriculum/09-cache-invalidation/challenges/ASSIGNMENT.md){:target="_blank"}
 - [Chaining Methods](https://codefellows.github.io/code-301-guide/curriculum/10-call-stack/challenges/ASSIGNMENT){:target="_blank"}
 - [Regular Expressions 1](https://codefellows.github.io/code-301-guide/curriculum/04-RWD-RegEx/challenges/ASSIGNMENT){:target="_blank"}
 - [Regular Expressions 2](https://codefellows.github.io/code-301-guide/curriculum/11-ejs/challenges/ASSIGNMENT){:target="_blank"}
