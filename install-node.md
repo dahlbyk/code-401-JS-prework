@@ -17,7 +17,6 @@
 - **live-server** `npm i -g live-server`
 - **watchman** [Install Guide](https://facebook.github.io/watchman/docs/install.html)
 - **jest** `npm i -g jest`
-- **mocha** `npm i -g mocha`
 - **eslint** `npm i -g eslint`
 
 #### Turning in this assignment
