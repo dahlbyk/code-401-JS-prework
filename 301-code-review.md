@@ -12,6 +12,8 @@ These readings/challenges are individually linked in Canvas as assignments as we
 
 - Create a new repository on github called `code-challenges` if you haven't already done so
 - Clone this to your computer, under your `codefellows` working folder
+- Install Jest globally if not already installed
+  - `npm install --global jest`
 - Upload the  jest.config.js file into your `code-challenges` folder (found in the "configs" folder of this repository)
 - Create a new folder for each of these challenges
 - Write your code for each challenge in a file called "challenge.test.js" in each folder
