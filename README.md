@@ -6,7 +6,7 @@ This is the mandatory pre-work for Code 401: JavaScript that counts as 5% of you
 
 Start on the pre-work as soon as you can and be sure to allow yourself plenty of time to complete it. Allow yourself more time than you think you will need so that you can take breaks and not get overwhelmed.
 
-**Note: All prework is due the Friday before the class starts at 6pm**
+**Note: All prework is due before start of first class**
 
 ### Set Up Your Computer
 - [ ] [Configure Bash](configure-bash.md)
