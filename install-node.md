@@ -1,4 +1,4 @@
-![cf](http://i.imgur.com/7v5ASc8.png) Install node.js
+# Install Node and Supporting Packages
 
 ## Install NVM & Node
 
@@ -11,12 +11,16 @@
 
    * Open a new terminal tab, and run `node -v` to verify the [latest "Current" NodeJS](https://nodejs.org/en/) version is installed.
 
-## Install global node modules
+## Configure global node modules
+
+### Install packages
 - **nodemon** `npm i -g nodemon`
 - **json-server** `npm i -g json-server`
 - **live-server** `npm i -g live-server`
-- **jest** `npm i -g jest`
-- **eslint** `npm i -g eslint`
+
+### Uninstall packages
+- **jest** `npm un -g jest`
+- **eslint** `npm un -g eslint`
 
 #### Turning in this assignment
 Submit a screen shot showing the output of the following commands, run from your terminal
@@ -26,8 +30,7 @@ which node; node --version
 which nodemon; nodemon --version
 which json-server; json-server --version
 which live-server; live-server --version
-which jest; jest --version
-which mocha; mocha --version
-which eslint; eslint --version
+which jest; 
+which eslint; 
 ```
 
