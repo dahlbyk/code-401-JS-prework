@@ -9,7 +9,7 @@
    * run `ls -a ~/` and look for the **.nvm** directory
 1. Follow the instructions under the "Usage" section to install Node, and ensure setup is correct.
 
-   * Open a new terminal tab, and run `node -v` to verify the [latest NodeJS](https://nodejs.org/en/) version is installed.
+   * Open a new terminal tab, and run `node -v` to verify the [latest "Current" NodeJS](https://nodejs.org/en/) version is installed.
 
 ## Install global node modules
 - **nodemon** `npm i -g nodemon`
