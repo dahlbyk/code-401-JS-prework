@@ -35,6 +35,7 @@ Start on the pre-work as soon as you can and be sure to allow yourself plenty of
 - [ ] [ES6 Katas](ES6-katas.md)
 
 ### Reading and Reference Materials
+Download/Purchase/Bookmark the following books. We will be assigning readings from them throughout the course.
 - [ ] [ES6 Features](http://es6-features.org/)
 - [ ] [Eloquent JavaScript](http://eloquentjavascript.net/)
 - [ ] [You Don't Know JS series](https://github.com/getify/You-Dont-Know-JS) (specifically, the "Scopes and Closures" and "this & Object Prototypes" books)
