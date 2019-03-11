@@ -8,7 +8,7 @@ Follow the links below to tddbin.com where they've setup an online environment f
 
 - Visit the links below and use the amazing tddbin.com online tool to complete the challenge.
 - Get the tests to pass
-- Copy the right side of the screen showing your passing tests and paste into Canvas for each Kata
+- Take a screen shot of the right side of the screen showing your passing tests and paste the image into the Canvas assignment for each Kata
 
 **Complete each of the following "kata" exercises**
 
